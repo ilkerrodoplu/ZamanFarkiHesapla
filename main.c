@@ -108,6 +108,11 @@ int main() {
     printf("Birinci tarih Epoch: %ld\n", epoch1.epoch);
     printf("Ikinci tarih Epoch: %ld\n", epoch2.epoch);
     printf("Zaman farki: %.0f saniye\n", fark);
+    printf("Zaman farki: %.2f dakika\n", fark/60);
+    printf("Zaman farki: %.2f saat\n", fark/3600);
+    printf("Zaman farki: %.2f gun\n",fark/(3600*24));
+    
+    
 
     return 0;
 }
